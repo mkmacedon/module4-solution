@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="MenuApp">
+	<head>
+		<title>Narrow Down Your Menu Choice</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/css/stylish-portfolio.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+	</head>
+	<body>
+		<header id="top" class="header">
+	        <div class="text-vertical-center">
+	        	<ui-view></ui-view>
+	        </div>
+	    </header>
+		<script type="text/javascript" src="src/data.module.js"></script>
+		<script type="text/javascript" src="src/urls.constant.js"></script>
+		<script type="text/javascript" src="src/menuapp.module.js"></script>
+		<script type="text/javascript" src="src/menudata.service.js"></script>
+		<script type="text/javascript" src="src/routes.js"></script>
+		<script type="text/javascript" src="src/categories.component.js"></script>
+		<script type="text/javascript" src="src/items.component.js"></script>
+		<script type="text/javascript" src="src/categories.controller.js"></script>
+		<script type="text/javascript" src="src/items.controller.js"></script>
+	</body>
+</html>
