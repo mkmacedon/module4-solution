@@ -1,0 +1,18 @@
+<div class="col-md-12">
+	<table class="table table-hover table-stripped">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Description</th>
+			<th>Price (small/big)</th>
+			<th>Portion size (small/big)</th>
+		</tr>
+		<tr ng-repeat="item in $ctrl.items">
+			<td>{{item.id}}</td>
+			<td>{{item.name}}</td>
+			<td>{{item.description}}</td>
+			<td>{{item.price_small}} / {{item.price_large}}</td>
+			<td>{{item.small_portion_name}} / {{item.large_portion_name}}</td>
+		</tr>
+	</table>
+</div>
